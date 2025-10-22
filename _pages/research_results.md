@@ -31,7 +31,7 @@ permalink: /research/research_results/
 <div class="col-sm-12 clearfix">
  <div class="well">
  {% if theme-item.hasimage == 1 %}
-  <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/{{ theme-item.image }}" class="img-responsive" width="50%" style="float: top"/>
+  <img src="{{ "" | relative_url }}/images/picpic/Gallery/{{ theme-item.image }}" class="img-responsive" width="50%" style="float: top"/>
   {% endif %}
   <h3><pubtit>{{ theme-item.title }}</pubtit></h3>
   <p>{{ theme-item.description }}</p>
@@ -53,7 +53,7 @@ permalink: /research/research_results/
 <div class="col-sm-6 clearfix">
  <div class="well">
  {% if theme-item.hasimage == 1 %}
-  <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/{{ theme-item.image }}" class="img-responsive" width="50%" style="float: top"/>
+  <img src="{{ "" | relative_url }}/images/picpic/Gallery/{{ theme-item.image }}" class="img-responsive" width="50%" style="float: top"/>
   {% endif %}
   <h3><pubtit>{{ theme-item.title }}</pubtit></h3>
   {{ theme-item.description }}

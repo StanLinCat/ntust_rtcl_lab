@@ -50,5 +50,5 @@ If you are interested in pursuing a Master degree at Uppsala University, see [th
 
 
 <figure>
-<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/UU_students_ad_photo.jpg" width="95%">
+<img src="{{ "" | relative_url }}/images/picpic/Gallery/UU_students_ad_photo.jpg" width="95%">
 </figure>

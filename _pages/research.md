@@ -8,7 +8,7 @@ permalink: /research/
 ---
 
 # Our Research
-<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/group_logo_medium.png" class="img-responsive" width="15%" style="float: left"/>
+<img src="{{ "" | relative_url }}/images/logopic/group_logo_medium.png" class="img-responsive" width="15%" style="float: left"/>
 
 Our vision is to develop methodologies for designing intelligent autonomous decision-making systems that are secure and resilient against malicious adversaries and natural failures. 
 
@@ -42,7 +42,7 @@ Have a look at a popular science video about our research on developing secure c
 <div class="col-sm-12 clearfix">
  <div class="well">
  {% if theme-item.hasimage == 1 %}
-  <img src="{{ site.url }}{{ site.baseurl }}/images/themepic/{{ theme-item.image }}" class="img-responsive" width="{{ theme-item.width }}" style="float: top"/>
+  <img src="{{ "" | relative_url }}/images/themepic/{{ theme-item.image }}" class="img-responsive" width="{{ theme-item.width }}" style="float: top"/>
   {% endif %}
   <h3><pubtit>{{ theme-item.title }}</pubtit></h3>
   <p>{{ theme-item.description }}</p>
@@ -64,7 +64,7 @@ Have a look at a popular science video about our research on developing secure c
 <div class="col-sm-6 clearfix">
  <div class="well">
  {% if theme-item.hasimage == 1 %}
-  <img src="{{ site.url }}{{ site.baseurl }}/images/themepic/{{ theme-item.image }}" class="img-responsive" width="{{ theme-item.width }}" style="float: top"/>
+  <img src="{{ "" | relative_url }}/images/themepic/{{ theme-item.image }}" class="img-responsive" width="{{ theme-item.width }}" style="float: top"/>
   {% endif %}
   <h3><pubtit>{{ theme-item.title }}</pubtit></h3>
   {{ theme-item.description }}

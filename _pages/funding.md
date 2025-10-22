@@ -20,37 +20,37 @@ We are grateful to the following organizations that generously fund our activiti
 <div class="row">
 
 <div class="col-sm-2 clearfix vcenter">
-<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/UU_logo_4f125px.png" style="width: 125px">
+<img src="{{ "" | relative_url }}/images/logopic/UU_logo_4f125px.png" style="width: 125px">
 
 </div>
 
 <div class="col-sm-2 clearfix vcenter">
-<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/KAW_Logotype_Large.png" style="width: 125px">
+<img src="{{ "" | relative_url }}/images/logopic/KAW_Logotype_Large.png" style="width: 125px">
 
 </div>
 
 <div class="col-sm-2 clearfix vcenter">
-<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/svart_fyrkant_eng.png" style="width: 120px">
+<img src="{{ "" | relative_url }}/images/logopic/svart_fyrkant_eng.png" style="width: 120px">
 
 </div>
 
 <div class="col-sm-2 clearfix vcenter">
-<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/ssf_gb_rgb-300x247.png" style="width: 124px">
+<img src="{{ "" | relative_url }}/images/logopic/ssf_gb_rgb-300x247.png" style="width: 124px">
 </div>
 </div>
 
 <div class="row">
 
 <div class="col-sm-2 clearfix vcenter">
-<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/energimyndigheten_engelsklogo_rgb.png" style="width: 120px">
+<img src="{{ "" | relative_url }}/images/logopic/energimyndigheten_engelsklogo_rgb.png" style="width: 120px">
 </div>
 
 <div class="col-sm-2 clearfix vcenter">
-<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Vinnova_green_payoff_ENG_RGB.png" style="width: 120px">
+<img src="{{ "" | relative_url }}/images/logopic/Vinnova_green_payoff_ENG_RGB.png" style="width: 120px">
 </div>
 
 <div class="col-sm-2 clearfix vcenter">
-<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/LOGO_essence.png" style="width: 120px">
+<img src="{{ "" | relative_url }}/images/logopic/LOGO_essence.png" style="width: 120px">
 </div>
 
 
@@ -86,4 +86,4 @@ Their funding supports our work in research, education, and outreach, not the le
 {% endfor %}
 
 
-<h4><a href="{{ site.url }}{{ site.baseurl }}/allprojects.html">... see all Projects</a></h4>
+<h4><a href="{{ "" | relative_url }}/allprojects.html">... see all Projects</a></h4>

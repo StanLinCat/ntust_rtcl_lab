@@ -20,7 +20,7 @@
         {{ reference | newline_to_br  }}
     
           <br/>
-          {% if entry.pdf %}<a href="{{ site.url }}{{ site.baseurl }}/assets/papers/{{ entry.pdf }}.pdf" target="_blank"><button class="btn-pdf">PDF</button></a>{% endif %}
+          {% if entry.pdf %}<a href="{{ "" | relative_url }}/assets/papers/{{ entry.pdf }}.pdf" target="_blank"><button class="btn-pdf">PDF</button></a>{% endif %}
 
           {% if entry.url %}<a href="{{ entry.url }}" target="_blank"><button class="btn-pdf">PDF</button></a> {% endif %}
 
