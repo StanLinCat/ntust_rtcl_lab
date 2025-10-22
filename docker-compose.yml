@@ -1,0 +1,25 @@
+version: '3.8' # 建議使用較新的版本號
+
+services:
+  jekyll:
+    # 使用官方的 Jekyll Docker 映像
+    # 這是包含 Ruby、Bundler 和 Jekyll 的最乾淨映像
+    image: jekyll/jekyll:latest 
+    
+    # 容器啟動時執行的命令
+    # jekyll serve：編譯並在本地伺服器上運行
+    # --watch：監聽檔案變更
+    # --force_polling：在某些系統（如 Windows/macOS）上確保檔案變更被偵測到
+    # --drafts：如果你要預覽草稿
+    command: jekyll serve --watch --force_polling --drafts --host 0.0.0.0
+
+    # 將容器的 4000 port 映射到您本機的 4000 port
+    ports:
+      - "4060:4000"
+
+    # 將您本機的專案目錄掛載到容器內的 /srv/jekyll (這是 Jekyll 的標準工作目錄)
+    volumes:
+      - .:/srv/jekyll
+      # 為了加速 Gem 安裝和快取，建議將 Gem Bundle 也掛載出來
+      # 確保您專案根目錄有一個 vendor/bundle 目錄
+      - ./vendor/bundle:/usr/local/bundle
